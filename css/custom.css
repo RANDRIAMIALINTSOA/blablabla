@@ -1,0 +1,53 @@
+.titre{
+    text-align: center;
+}
+.en_tete{
+    display: flex;
+    align-items: center;
+}
+.with{
+    text-align: center;
+}
+.with h5{
+    background-image: url(../images/image_environement.jpg);
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: center;
+    padding: 50px 0;
+}
+.item{
+    position: relative;
+    display: inline-block;
+
+}
+.item img{
+    width: 100%;
+    display: block;
+}
+.overlay-text {
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    color: white; 
+}
+.overlay-text h5{
+    margin-left: 50%;
+}
+.tous{
+background-color: gray;
+padding: 30px;
+margin-bottom: 50px;
+}
+.tous h3{
+    text-align: center;
+}
+.contenu h5{
+    margin-left: 20%;
+}
+.make{
+    background-color: mediumslateblue;
+}
+.copy{
+    background-color: greenyellow;
+}
+
